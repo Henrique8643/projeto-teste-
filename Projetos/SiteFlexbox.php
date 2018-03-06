@@ -1,0 +1,323 @@
+<html>
+    <head>
+    <meta charset="utf-8"/> 
+    <meta name="viewport" content="width=device-width,user-scalable=0"/><!-- A largura do meu site vai se adaptar em qualquer ambiente-->
+        <title>MediaCenter</title>
+        
+        <link rel="stylesheet" type="text/css" href="www/projetos/CSS/styleflexbox.css"/>
+        <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                    
+                }
+            });
+        };
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                  <a href="">
+                    <img src="assets/images/logo.png"></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="">HOME</a></li>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">HOME</a></li>
+                        
+                        </ul>
+                    </nav>
+                </div>
+            
+            </div>
+        
+        </header>
+        
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+                </div>
+                <div class="banner_options">
+                    <div class="banner1">
+                        <div class="banner_title">Emergency Case</div>
+                        <div class="banner_desc">Algum texto qualquer,vocês veram !</div>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="banner2">
+                         <div class="banner_title">Doctors Timetable</div>
+                         <div class="banner_desc">Algum texto qualquer,vocês veram !</div>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="banner3">
+                     <div class="banner_title">Opening Hours</div>
+                       
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+                <section id="geral">
+                    <div class="container">
+                        <section>
+                             <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest News</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body flex">
+                                    <article>
+                                        <a href="">
+                                   <div class="news_data">
+                                       <div class="news_posted_at">12 DEC 12</div>
+                                       <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                       <img src="assets/images/dr.jpg"/>
+                                       </div>
+                                        <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                                        <div class="news_resume">Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)? Todos queremos um País mais seguro, mas a... RECOMENDAR 35COMENTAR.
+                                            Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)? Todos queremos um País mais seguro, mas a... RECOMENDAR 35COMENTAR.
+
+                                        </div>
+                                        </a>
+                                    </article>
+                                    <article>
+                                        <a href="">
+                                   <div class="news_data">
+                                       <div class="news_posted_at">12 DEC 12</div>
+                                       <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                       <img src="assets/images/dr.jpg"/>
+                                       </div>
+                                        <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                                        <div class="news_resume">Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)? Todos queremos um País mais seguro, mas a... RECOMENDAR 35COMENTAR.
+                                        </div>
+                                        </a>
+                                    </article>
+                                    <article>
+                                        <a href="">
+                                   <div class="news_data">
+                                       <div class="news_posted_at">12 DEC 12</div>
+                                       <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                       <img src="assets/images/dr.jpg"/>
+                                       </div>
+                                        <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                                        <div class="news_resume">Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)? Todos queremos um País mais seguro, mas a... RECOMENDAR 35COMENTAR.
+                                        </div>
+                                        </a>
+                                    </article>
+                                    <article>
+                                        <a href="">
+                                   <div class="news_data">
+                                       <div class="news_posted_at">12 DEC 12</div>
+                                       <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                       <img src="assets/images/dr.jpg"/>
+                                       </div>
+                                        <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                                        <div class="news_resume">Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)? Todos queremos um País mais seguro, mas a... RECOMENDAR 35COMENTAR.
+                                        </div>
+                                        </a>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                        <aside>
+                            <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Departaments</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="prototipo1"></div>
+                                </div>
+                                
+                            </div>
+                             <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">
+                                    Make An Appointment</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body">
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                
+                
+                </section>
+                
+                <footer>
+                    <div class="container flexColumn">
+                    <div class="footer_menu">
+                        <div class="fm_1">
+                        <a href="">
+                            <div class="footer_title">Health Insurance</div>
+                            <div class="footer_subtitle">Hero in mediacenter we have individual
+                            </div>
+                            </a>
+                        </div>
+                        <div class="fm_2">
+                        <a href="">
+                             <div class="footer_title">Medical Records</div>
+                            <div class="footer_subtitle">Hero in mediacenter we have individual
+                            </div>
+                            </a>
+                        </div>
+                        <div class="fm_3">
+                        <a href="">
+                             <div class="footer_title">Online Bill Pay</div>
+                            <div class="footer_subtitle">Hero in mediacenter we have individual
+                            </div>
+                            </a>
+                        </div>
+                        </div>
+                        
+                        <div class="footer_area">
+                            <div class="footer_areaitem">
+                            <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">MediaCenter Clinic</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body">
+                                    <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)?
+                                    </div>
+                                </div>
+                                <div class="footer_flex">
+                                     <div class="footer_flex">
+                                         Mediacenter Clinic
+                                    </div>
+                                    <div class="footer_flex">
+                                        33 Fartana Street
+                                        <div class="footer_flex1">
+                                         +123 655 655
+                                    </div>
+                                    </div>
+                                     <div class="footer_flex">
+                                         Easy The100
+                                         <div class="footer_flex1">
+                                         +123 655 755
+                                    </div>
+                                    </div>
+                                    <div class="footer_flex">
+                                         VIC 3033,Austrália
+                                        <div class="footer_flex1">
+                                            <a href="">mediacenter@gmail.com
+                                            </a>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="footer_img">
+                                <img src="assets/images/Twitter2.png"/>
+                                    
+                                </div>
+                                 <div class="footer_img">
+                                <img src="assets/images/Twitter2.png"/>
+                                </div>
+                                 <div class="footer_img">
+                                <img src="assets/images/Twitter2.png"/>
+                                </div>
+                                 <div class="footer_img">
+                                <img src="assets/images/Twitter2.png"/>
+                                </div>
+                               
+                                </div>
+                                </div>
+                             <div class="footer_areaitem">
+                            <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body">
+                                <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)?
+                                     <div class="footer_flextext2">2 years ago
+                                    
+                                    </div>
+                                    </div>
+                                    </div>
+                                 <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. 
+                                     <div class="footer_flextext2">3 years ago</div>
+                                    </div>
+                                 <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito.
+                                     <div class="footer_flextext2">4 years ago</div>
+                                    </div>
+                               
+                                </div>
+                                 </div>
+                             <div class="footer_areaitem">
+                            <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                                </div>
+                                <div class="widget_body">
+                                <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)?
+                                     <div class="footer_flextext2">4 years ago</div>
+                                    </div>
+                                </div>
+                                <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)?
+                                     <div class="footer_flextext2">5 years ago</div>
+                                    </div>
+                                <div class="footer_flextext1">
+                                    Intervenção federal no RJ (necessária) começou como Organização Tabajara. Quem, em sã consciência, pode ser contra o propósito de enfrentar a violência difusa no RJ (ou em qualquer outra cidade brasileira que padece do mesmo mal)?
+                                     <div class="footer_flextext2">6 years ago</div>
+                                    </div>
+                               
+                                </div>
+                                 </div>
+                            </div>
+                            <div class="footer_copy">
+                                @Corpyright - Todos o direitos reservados !
+                            </div>
+                            </div>  
+                       
+                    
+                    </footer>
+                </body>
+
+</html>
