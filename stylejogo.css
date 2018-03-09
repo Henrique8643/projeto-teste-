@@ -1,0 +1,35 @@
+
+
+#quadrado1 {
+    width:250px;
+    height:250px;
+    background-color:aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    font-size:200px;
+    text-align: center;
+    line-height: 200px;
+}
+#quadrado2 {
+    width:250px;
+    height:250px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    font-size:200px;
+    text-align: center;
+    line-height: 200px;
+}
+button {
+    width:510px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    
+}
